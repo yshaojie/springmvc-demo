@@ -29,7 +29,7 @@ public class ScmUserDao extends BaseDao {
     }
  
     class PersonRowMapper  implements RowMapper<ScmUser> {
-
+   
         @Override
         public ScmUser mapRow(ResultSet resultSet, int i) throws SQLException {
             ScmUser person = new ScmUser();
