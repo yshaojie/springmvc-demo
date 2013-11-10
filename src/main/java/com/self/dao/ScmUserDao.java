@@ -27,7 +27,7 @@ public class ScmUserDao extends BaseDao {
         }
         return list;
     }
-
+ 
     class PersonRowMapper  implements RowMapper<ScmUser> {
 
         @Override
